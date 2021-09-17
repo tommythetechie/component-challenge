@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900
+*/
+*{
+	box-sizing: border-box;
+}
+body {
+	background-color: hsl(225, 100%, 94%);
+	font-family: 'Red Hat Display', sans-serif;
+	text-align: center;
+	font-size: 16px;
+}
+.wrapper {
+	margin: 0 auto;
+	max-width: 375px;
+}
+.box {
+	
+	border-radius: 5%;
+	background-color: white;
+}
+header img {
+	max-width: 100%;
+	border-top-left-radius: 5%;
+	border-top-right-radius: 5%;
+}
+main {
+	padding: 12px;
+}
+main h1 {
+	font-size: 1.5rem;
+}
+main p {
+	line-height: 28px;
+	color: hsl(224, 23%, 55%);
+}
+main button {
+	display: block;
+	width: 100%;
+	margin: 28px 0px;
+	color: white;
+	background-color:  hsl(245, 75%, 52%);
+	border-radius: 15px;
+	padding: 18px 0px;
+	font-size: 1.2rem;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border: none;
+}
+.plan {
+	background-color: hsl(225, 100%, 98%);
+	display: grid;
+	grid-template-columns: 112px 112px 112px;
+	grid-template-rows: 80px;
+	justify-items: center;
+	align-items: center;
+	border-radius: 15px;
+	color: hsl(224, 23%, 55%);
+}
+.plan span {
+	font-weight: 900;
+	color: hsl(223, 47%, 23%);
+}
+.plan a {
+	color: hsl(223, 47%, 23%);
+}
+.payment {
+	margin-bottom: 18px;
+}
+.payment a {
+	text-decoration: none;
+	color: hsl(224, 23%, 55%);
+}
